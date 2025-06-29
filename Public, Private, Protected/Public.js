@@ -1,4 +1,4 @@
-class User {
+class user {
     constructor(name) {
         this.name = name; //public
     }
@@ -7,5 +7,5 @@ class User {
         console.log('Halo, saya ${this.name}');
     }
 }
- const user1 = new User('Dani');
+ const user1 = new user('Dani');
  console.log(user1.name);
