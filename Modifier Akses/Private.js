@@ -15,3 +15,5 @@ const user1 = new user('Dani', 'RahasiaPassword');
 console.log(user1.name); //bisa akses karena public
 //console.log(user1.#password); //error tidak bisa akses private
 console.log(user1.checkPassword('RahasiaPassword')); //true
+
+// Properti atau method yang diawali dengan # hanya bisa diakses dari dalam class.
